@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+body {
+    background-color: #6B0F1A; 
+    margin: 0;   
+    background-image: url("media/WhatsApp\ Image\ 2026-04-19\ at\ 23.13.17.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    position: relative;
+
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+
+/* CONTENEDOR GENERAL */
+.contenedor {
+    width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* CAJAS */
+.caja {
+    background-color: #DCE0D9;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* TÍTULOS */
+h1 {
+    background-color: #595959;
+    color: #DCE0D9;
+    font-family: "Sixtyfour";
+    padding: 15px;
+    margin-top: 0;
+}
+
+h2 {
+    background-color: #595959;
+    color: #DCE0D9;
+    font-family: "Tiny5";
+    padding: 10px;
+}
+
+/* MENÚ */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #424b45;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0;
+}
+
+
+.nota {
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+
+.menu li a {
+    color: #DCE0D9;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    font-family: "Tiny5";
+}
+
+.menu li a:hover {
+    background-color: #808F85;
+}
+
+/* IMÁGENES */
+img {
+    margin: 15px;
+    
+}
+
+
+table img {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+table img:hover {
+    transform: scale(1.05);
+}
+
+
+table {
+    background-color: #808F85;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+th {
+    background-color: #595959;
+    color: #DCE0D9;
+}
+
+td {
+    background-color:#808F85    ;
+    
+}
+
+
+/*PlayList */
+
+.caja-playlist-layout {
+    display: flex;
+    gap: 20px;
+}
+
+.playlist-aside {
+    width: 30%;
+    background-color: #808F85;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.playlist-aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist-aside li {
+    margin-bottom: 10px;
+}
+
+.playlist-aside a {
+    text-decoration: none;
+    color: #000;
+}
+
+.playlist-aside a:hover {
+    text-decoration: underline;
+}
+
+.playlist-main {
+    width: 70%;
+    text-align: center;
+}
+
+.footer {
+    background-color:#424b45;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+
+
+/* Iconos redes / más sobre mí */
+section img {
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.2);
+}
+
+
+.trivia p {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.trivia label {
+    display: block;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
